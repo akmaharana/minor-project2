@@ -41,7 +41,40 @@ em {
   background: #f8d7da;
   padding: 8px 10px;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 8px;
   margin-bottom: 10px;
   border: 1px solid #e6e6e7;
 }
+.form form .name-details{
+  display:-ms-flexbox;
+}
+form .name-details .field:first-child{
+  margin-right: 2px;
+}
+form .name-details .field:last-child{
+  margin-left: 2px;
+}
+.form form .field{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 9px;
+   
+}
+.form form .field input{
+  outline: #ccc;
+}
+.form form .input input{
+  height: 28px;
+  width: 79%;
+  font-size: 12px;
+  padding:  8px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
