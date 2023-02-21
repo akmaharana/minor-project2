@@ -184,7 +184,7 @@ form .name-details .field:last-child{
   overflow-y: auto;
 
 }
-:is(.users-list, .chat-box):-webkit-scrollbar{
+:is(.users-list, .chat-box)::-webkit-scrollbar{
   width: 0px;
 }
 .users-list a{
@@ -282,6 +282,30 @@ form .name-details .field:last-child{
   background: #fff;
   border-radius: 18px 18px 18px 0;
   
+}
+.chat-area .typing-area{
+  padding: 18px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.typing-area input{
+  height: 45px;
+  width: calc(100% -58px);
+  font-size: 17px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+
+}
+.typing-area button{
+  width: 55px;
+  border: none;
+  outline: none;
+  background: #333;
+  color: #fff;
+  font-size: 19px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
 }
 
 
